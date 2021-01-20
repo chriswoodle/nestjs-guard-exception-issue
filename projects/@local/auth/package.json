@@ -10,14 +10,17 @@
         "trace": "yarn pnpify tsc --traceResolution"
     },
     "dependencies": {
-        "@nestjs/common": "*",
         "reflect-metadata": "*",
         "rxjs": "*"
     },
     "devDependencies": {
+        "@nestjs/common": "*",
         "@types/express": "^4.17.11",
         "@types/node": "*",
         "@yarnpkg/pnpify": "*",
         "typescript": "*"
+    },
+    "peerDependencies": {
+        "@nestjs/common": "*"
     }
 }
