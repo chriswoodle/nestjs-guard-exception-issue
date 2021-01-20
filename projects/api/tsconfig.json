@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json.schemastore.org/tsconfig",
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": {
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "incremental": true,
+        "types": [
+            "node"
+        ]
+    },    
+    "include": [
+        "**/*.ts",
+        "**/*.*.ts"
+    ],
+    "references": [
+        {
+            "path": "../@local/auth"
+        }
+    ]
+}
